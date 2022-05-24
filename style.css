@@ -1,0 +1,78 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.header {
+    background-color: aquamarine;
+    height:auto;
+    display: flex;
+    padding: 25px;
+    font-size: medium;
+}
+.header-left{
+    flex-wrap: wrap;
+    width: 50%;
+    color: black;
+    text-align: center;
+    
+}
+.header-right{
+    flex-wrap: wrap;
+    width: 50%;
+    color:black;
+    text-align: center;
+    
+}
+.main1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.div-left1{
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+    border: 1px dashed white;
+    
+}
+.Profile-Photo{
+    height: 500px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.div-right1{
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+    border: 1px dashed white;
+}
+.navigator{
+    height: 50%;
+    
+}
+.about-me{
+    height: 50%;
+}
+.main2{
+    height: 50%;
+    width: 100%;
+    display:flex
+}
+.div-left2{
+    width: 50%;
+    height: 500px;
+    border: 1px dashed white;
+}
+.div-right2{
+    width: 50%;
+    height: 500px;
+    border: 1px dashed white;
+}
+.footer {
+    background-color: aquamarine;
+    height:auto;
+    display: flex;
+    padding: 25px;
+    font-size: medium;
+}
