@@ -1,40 +1,42 @@
-body{
-    background-color: cornflowerblue;
-}
 
 .header {
-    background-color: aquamarine;
-    height:auto;
-    display: flex;
-    padding: 25px;
     font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
 }
 .header-left{
-    flex-wrap: wrap;
+    flex: 1 1 500px;
+    background-color: aliceblue;
     width: 50%;
     color: black;
     text-align: center;
-    
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
 }
 .header-right{
-    flex-wrap: wrap;
+    flex: 1 1 500px;
+    background-color: cornflowerblue;
     width: 50%;
     color:black;
     text-align: center;
-    
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
 }
 .main1{
     height: 50%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .div-left1{
+    flex: 1 1 500px;
     width: 50%;
     height: 500px;
-    padding: 25px;
-    border: 1px dashed white;
-    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: cornflowerblue;
 }
+
 .Profile-Photo{
     height: 500px;
     border-radius: 50%;
@@ -42,37 +44,119 @@ body{
     margin: auto;
 }
 .div-right1{
+    flex: 1 1 500px;
+    background-color: aliceblue;
     width: 50%;
     height: 500px;
-    padding: 25px;
-    border: 1px dashed white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
 }
-.navigator{
-    height: 50%;
-    
+.link-to-about-me{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }
-.about-me{
-    height: 50%;
+.link-to-about-me a{
+    position: relative;
+    top: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.link-to-my-work{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.link-to-my-work a{
+    position: relative;
+    top: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+.link-to-contact{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.link-to-contact a{
+    position: relative;
+    top: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: black;
 }
 .main2{
     height: 50%;
     width: 100%;
-    display:flex
+    display:flex;
+    flex-wrap: wrap;
 }
 .div-left2{
+    flex: 1 1 500px;
+    background-color: aliceblue;
     width: 50%;
     height: 500px;
-    border: 1px dashed white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .div-right2{
+    flex: 1 1 500px;
     width: 50%;
     height: 500px;
-    border: 1px dashed white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: cornflowerblue;
 }
-.footer {
-    background-color: aquamarine;
-    height:auto;
-    display: flex;
-    padding: 25px;
+.my-work{
+    background-color: aliceblue;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.my-work p{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.footer{
     font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-left{
+    flex: 1 1 500px;
+    background-color: cornflowerblue;
+    width: 50%;
+    color: black;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
+.footer-right{
+    flex: 1 1 500px;
+    background-color: aliceblue;
+    width: 50%;
+    color:black;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -15,38 +15,27 @@
         </div>
         <div class="header-right">
             <h1>Portfolio's Page</h1>
-            <!-- 
-            <h1>about me</h1>
-            <h1>my work</h1>
-            <h1>contact</h1>
-             -->
         </div>
     </header>
 
-    <section>
+    <section class="section">
     <section class="main1">
         <div class="div-left1">
-            <img class="Profile-Photo" src="Images/IMG_1942.JPG" alt="Profile-Photo">
+            <img class="Profile-Photo" src="Images/IMG_1942.JPG" alt="Profile-Photo"> 
         </div>
         <div class="div-right1">
-            <div class="navigator">
-                <ul>
-                    <li>
-                        <a heref="#about-me">about me</a>
-                    </li>
-                    <li>
-                        <a heref="#my-work">my work</a>
-                    </li>
-                    <li>
-                        <a heref="#contact-me">contact me</a>
-                    </li>
-                </ul>
+            <div class="link-to-about-me">
+                <a href="#about-me">about me</a>
             </div>
-            <div class="about-me">
-                <p>Welcome to my Portfolio.</p>
+            <div class="link-to-my-work">
+                <a href="#my-work">my work</a>
+                <!-- <p>Welcome to my Portfolio.</p>
                 <p>I'm a web developer with a background in civil engineering.</p>
                 <p>in other words, I like to design, construct, manage and maintain.</p>
-                <p>interested in working together? let's have a chat.</p>
+                <p>interested in working together? let's have a chat.</p> -->
+            </div>
+            <div class="link-to-contact">
+                <a href="#contact-me">contact me</a>
             </div>
         </div>
     </section>
@@ -55,13 +44,21 @@
 
         </div>
         <div class="div-right2">
+            <div id="my-work" class="my-work">
+                <p>Coming soon...</p>
+            </div>
 
         </div>
     </section>
     </section>
 
     <footer class="footer">
-        <h1>...</h1>
+        <div class="footer-left">
+            <h1>made with love</h1>
+        </div>
+        <div class="footer-right">
+            <h1>by Juan</h1>
+        </div>
     </footer>
 </body>
 
