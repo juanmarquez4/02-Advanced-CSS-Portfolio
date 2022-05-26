@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Assets/reset.css" /> <!--apply reset styles-->
+  <link rel="stylesheet" href="Assets/style.css" />  
 </head>
 
 <body>
@@ -18,36 +18,47 @@
         </div>
     </header>
 
-    <section class="section">
-    <section class="main1">
+    <section class="section"> 
+    <section class="main1"> <!--section to apply flexbox-->
         <div class="div-left1">
             <img class="Profile-Photo" src="Images/IMG_1942.JPG" alt="Profile-Photo"> 
         </div>
         <div class="div-right1">
             <div class="link-to-about-me">
-                <a href="#about-me">about me</a>
+                <a href="#about-me">about me</a> <!--link to about-me div-->
             </div>
             <div class="link-to-my-work">
-                <a href="#my-work">my work</a>
-                <!-- <p>Welcome to my Portfolio.</p>
-                <p>I'm a web developer with a background in civil engineering.</p>
-                <p>in other words, I like to design, construct, manage and maintain.</p>
-                <p>interested in working together? let's have a chat.</p> -->
+                <a href="#my-work">my work</a> <!--link to my-work div-->
             </div>
             <div class="link-to-contact">
-                <a href="#contact-me">contact me</a>
+                <a href="#contact-me">contact me</a> <!--link to contact-me div-->
             </div>
         </div>
     </section>
-    <section class="main2">
+    <section class="main2"> <!--section to apply flexbox-->
         <div class="div-left2">
-
+            <div id="about-me" class="about-me">
+                <div class="align">
+                    <h1>Welcome to my Portfolio</h1> 
+                    <p>I'm a web developer with a background in civil engineering.</p>
+                    <p>In other words, I like to design, construct, manage and maintain.</p>
+                </div>
+                
+            </div>
+            <div id="contact-me" class="contact-me">
+                <div class="align">
+                    <h1>Interested in working together?</h1>
+                    <p>Let's have a chat.</p> 
+                    <P>email: juanmarquez4@gmail.com</P>
+                    <p>phone:+61413136765</p>
+                </div>
+            </div>
         </div>
         <div class="div-right2">
             <div id="my-work" class="my-work">
-                <p>Coming soon...</p>
+                <p>More of my work: Coming soon...</p>
+                <p>click <a href="here.html">here</a> for a preview.</p> <!--link to 2nd page html-->
             </div>
-
         </div>
     </section>
     </section>
